@@ -32,7 +32,7 @@
     "coverall": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "keywords": [
-      "selenium,webdriver,helper,helpers"
+    "selenium,webdriver,helper,helpers"
   ],
   "author": "Alexander <alykoshin@gmail.com>",
   "license": "MIT",
