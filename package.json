@@ -1,6 +1,6 @@
 {
   "name": "selenium-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set of helper functions for Seleinium webdriver",
   "main": "./index.js",
   "engines": {
