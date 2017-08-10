@@ -1,0 +1,13 @@
+{
+  "generator-mini-package": {
+    "promptValues": {
+      "pkgDesc": "Set of helper functions for Seleinium webdriver",
+      "keywords": [
+        "selenium",
+        "webdriver",
+        "helper",
+        "helpers"
+      ]
+    }
+  }
+}
