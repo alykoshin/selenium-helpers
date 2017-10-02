@@ -49,15 +49,15 @@
     "selenium-webdriver": "^3.5.0"
   },
   "devDependencies": {
-    "chai": "^4.1.1",
+    "chai": "^4.1.2",
     "chai-things": "^0.2.0",
-    "coveralls": "^2.13.1",
-    "eslint": "^4.4.1",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.8.0",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.5",
-    "jsinspect": "^0.12.6",
-    "mocha": "^3.5.0",
+    "jsinspect": "^0.12.7",
+    "mocha": "^3.5.3",
     "mockery": "^2.1.0",
-    "sinon": "^3.2.0"
+    "sinon": "^4.0.0"
   }
 }
