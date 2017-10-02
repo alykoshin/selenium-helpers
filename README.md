@@ -169,6 +169,22 @@ Save value of `driver.getPageSource()` into file `pathname`
 Save value of `document.documentElement.outerHTML` into file `pathname`
 
 
+
+## Debugging
+
+This module uses standard [debug](https://www.npmjs.com/package/debug) with namespace `selenium-helpers`.
+In order to get output to console you must set environment variable `DEBUG` to the value of namespace.  
+
+Example for Linux:
+
+    DEBUG=selenium-helpers <command-to-start>
+
+Example for Linux:
+
+    DEBUG=selenium-helpers <command-to-start>
+
+Where `<command-to-start>` is the command starting the app i.e.: `node app.js` or `npm start` etc.
+
 ## Credits
 
 [Alexander](https://github.com/alykoshin/)
