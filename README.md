@@ -179,9 +179,10 @@ Example for Linux:
 
     DEBUG=selenium-helpers <command-to-start>
 
-Example for Linux:
+Example for Windows:
 
-    DEBUG=selenium-helpers <command-to-start>
+    SET DEBUG=selenium-helpers
+    <command-to-start>
 
 Where `<command-to-start>` is the command starting the app i.e.: `node app.js` or `npm start` etc.
 
