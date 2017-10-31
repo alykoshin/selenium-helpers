@@ -31,11 +31,10 @@ const TIMEOUT = 2 * oneMinute;
 
 const seleniumHelpers = require('selenium-helpers')({ timeout: TIMEOUT });
 
-const driver = seleniumHelpers.buildChrome();
-
 const url = 'http://some-login-page/';
 
-seleniumHelpers.openPage(url)
+/* return */ seleniumHelpers.buildChrome()
+  .then((webDriver) => seleniumHelpers.openPage(url))
   .then(()   => seleniumHelpers.debug('* Login page is loading...'))
   .then((el) => seleniumHelpers.scrollAndType('#login', username) )
   .then((el) => seleniumHelpers.scrollAndType('#password', password) )
@@ -56,20 +55,31 @@ seleniumHelpers.openPage(url)
 
 ## Methods
 
-### buildChrome()
+### buildChrome({ proxyConfig, chromeOptions })
 
 Build the driver for Chrome using new clean Chrome profile. 
 
+- `proxyConfig`   - optional: `{ host, port, username, password [, tempDir ] }`
+- `chromeOptions` - optional; if set, chromeOptions will be used when build the Chrome's driver. 
 
-### buildFirefox()
+returns `{Promise}`
+
+
+### buildFirefox({ profilePath })
 
 Build the driver for Firefox using new clean Firefox profile. 
+
+- `profilePath` - `string` - optional, path to Firefox profile
+
+returns `{Promise}`
 
 
 ### buildFirefoxWithProfile(firefoxProfilePath)
 
 Build the driver for Firefox using existing Firefox profile defined by path `firefoxProfilePath`. 
  
+returns `{Promise}`
+
 
 ### sleep(timeout)
 
