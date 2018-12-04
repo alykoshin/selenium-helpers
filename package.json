@@ -47,7 +47,7 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "promise-one": "^1.0.0",
-    "selenium-chrome-proxy-plugin": "^0.2.2",
+    "selenium-chrome-proxy-plugin": "^0.0.4",
     "selenium-webdriver": "^3.6.0"
   },
   "devDependencies": {
