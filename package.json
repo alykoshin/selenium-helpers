@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/alykoshin/selenium-helpers",
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.2",
     "promise-one": "^1.0.0",
     "selenium-chrome-proxy-plugin": "^0.2.2",
     "selenium-webdriver": "^3.6.0"
